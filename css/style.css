@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+  }
+  ul,
+  li,
+  p{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  h1,h2,h3,h4{
+      padding: 0;
+      margin: 0;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    background-color:rgba(32, 32, 45, 1);
+  }
+  .container{
+    max-width: 975px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px; 
+  }
+  .section{
+    padding-top: 64px;
+    padding-bottom: 92px;
+  }
+  .hero{
+      padding-bottom: 155px;
+      background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  }
+  .hero-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 27px;
+    margin-top: 50px;
+    margin-bottom: 109px;
+  }
+  .social-link{
+      margin-left: 21px;
+  }
+  .social-link:first-child{
+      margin-left: 0;
+  }
+
+  .hero-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .hero-text{
+    max-width: 420px;
+    margin-right: 10px;
+  }
+  .hero-subtitle{
+    font-size: 24px;
+    color: #FFBB01;
+    margin-bottom: 14px;
+  }
+  .hero-title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 20px;
+  }
+  .hero-description{
+      margin-bottom: 38px;
+  }
+  .hero-btn{
+      display: inline-block;
+      width: 285px;
+      height: 65.17px;
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #2E2E30;
+      background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+      box-shadow: 0px 4px 0px #B68500;
+      border-radius: 5px 5px 10px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-avatar{
+        width: 389px;
+        height: 389px;
+        border-radius: 50%;
+        background-color: #fff;
+        background-image: url(../images/photo.jpg);
+        background-repeat: no-repeat;
+        background-position: center top -40px;
+        border: 13px solid #fff;
+    }
+
+    /* features */
+    .features{
+        background-color: black;
+    }
+    .section-title{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 84px;
+    }
+    .features-block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .features-item{
+        flex-basis: 30%;
+        margin-bottom: 63px;
+    }
+    .feateres-icon{
+        margin-bottom: 22px;
+    }
+    .features-title{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    /* footer */
+    .footer{
+        background: rgba(32, 32, 45, 1);
+    }
+    .contacts-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .form{
+        background: #FFFFFF;
+        box-shadow: -5px 5px 0px #FFC41D;
+        border-radius: 5px;
+        max-width: 380px;
+        text-align: center;
+        padding: 40px 35px 50px 35px;
+        margin-right: 100px;
+    }
+    .form-title{
+        font-weight: bold;
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 29px;
+    }
+    .form-input{
+        width: 100%;
+        font-size: 14px;
+        background: #F8F8F8;
+        box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+        border-radius: 5px;
+        padding: 18px 49px;
+    }
+    .form-name{
+        margin-bottom: 17px;
+        background-image: url(../images/user-icon.svg);
+        background-repeat: no-repeat;
+        background-position: 20px center;
+    }
+    .form-phone{
+        margin-bottom: 26px;
+        background-image: url(../images/phone-icon.svg);
+        background-repeat: no-repeat;
+        background-position: 20px center;
+    }
+    .hero-btn.form-btn{
+        width: 100%;
+    }
+    .contacts-text{
+        line-height: 19px;
+    }
+    .contacts-data{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .contacts-phone{
+        flex-basis: 50%;
+        margin-bottom: 50px;
+    }
+    .contacts-email{
+        margin-bottom: 50px;
+    }
+    .contacts-title{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .contacts-links{
+        margin-bottom: 40px;
+    }
+    .contacts-link{
+        margin-right: 37px;
+    }
+    .contacts-social--links{
+        margin-bottom: 72px;
+    }
+    .contacts-politics--link{
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        color: #A5A5A5;
+        margin-top: 70px;
+    }
+
+    /* project */
+    .projects{
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+    }
+    
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+    .progect-img{
+        margin-right: 65px;
+        width: 338px;
+        height: 268px;
+    }
+    .project-title{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 41px;
+    }
+    .project-description{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project-time,
+    .project-cost,
+    .projecr-feedback{
+        position: relative;
+        margin-bottom: 44px;
+    }
+    .project-time{
+        width: 50%;
+    }
+    .project-description--block{
+        padding-left: 49px;
+    }
+    .project-icon{
+        position: absolute;
+        top: 8px;
+    }
+    .project-subtitle{
+        font-weight: bold;
+        line-height: 21px;
+        margin-bottom: 7px;
+    }
+    .project-text{
+        line-height: 24px;
+    }
+
+    .slick-btn{
+        display: block;
+        /* position: absolute; */
+        
+        /* background: #FFBB01; */
+        border: 2px solid #FFBB01;
+       
+    }
+    ul.slick-dots{
+        text-align: center;
+    }
+    ul.slick-dots li{
+       display: inline-block;
+    }
+    ul.slick-dots li button{
+        display: inline-block;
+        padding: 0;
+        margin: 5px;
+        border-radius: 50%;
+        content: none;
+        width: 10px;
+        height: 10px;
+        background-color: #FFBB01;
+        border: 2px solid #FFBB01;
+        text-indent: -9999px; 
+    }
+    ul.slick-dots li.slick-active button{
+        border: 2px solid #FFBB01;
+        background-color: transparent;
+    }
