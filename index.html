@@ -32,7 +32,8 @@
                     <p class="hero-description">Разрабатываю сайты для малого и среднего бизнеса. 
                         У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
                     </p>
-                    <a href="#" class="hero-btn">Бесплатная консультация</a>
+                    <a href="#" class="hero-btn" data-path='one'>Бесплатная консультация</a>
+                    <a href="#" class="hero-btn" data-path='two'>Бесплатная консультация2</a>
                 </div>
                 <div class="hero-avatar">
                     <!-- <img src="images/photo.png" alt="мое фото"> -->
@@ -40,6 +41,13 @@
             </div>
         </div>
     </header>
+
+    
+
+    <div class="modal-overlay">
+        <div class="modal-window" data-target='one'>Окно1</div>
+        <div class="modal-window" data-target='two'>Окно2</div>
+    </div>
 
     <main>
         <section class="features section">
@@ -184,7 +192,7 @@
 
     <footer class="footer section">
         <div class="container">
-            <h2 class="section-title">Свяжитесь со мной</h2>
+            <h2 class="section-title footer-title">Свяжитесь со мной</h2>
             <div class="contacts-block">
                 <form action="" class="form">
                     <p class="form-title">Можете просто оставить заявку,<br> я позвоню вам сегодня</p>
